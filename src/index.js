@@ -99,8 +99,8 @@ let styles = StyleSheet.create({
 })
 
 // missing `module.exports = exports['default'];` with babel6
-// export default React.createClass({
-module.exports = React.createClass({
+export default React.createClass({
+// module.exports = React.createClass({
 
   /**
    * Props Validation
